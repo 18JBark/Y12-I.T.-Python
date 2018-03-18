@@ -1,0 +1,13 @@
+yes
+no
+maybe
+crazy
+baby
+
+    for line in w:
+        line=line.strip('\n')
+        line=line.split(' ')
+
+    #removes the first thing in the list
+        vname = line.pop(0)
+        avTemp = line.append()

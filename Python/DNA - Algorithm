@@ -1,0 +1,12 @@
+Begin
+
+    open file for reading
+    open file for writing
+    for each line in file
+        Find length of line
+        strip first 14 letters
+        write trimmed letters to new file
+    output wanted to screen
+    output wanted to outfile
+    close file
+end
